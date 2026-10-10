@@ -8,6 +8,14 @@
 
 > Early-stage demo. The app does not impose a download speed cap. Actual throughput depends on the server, account permissions, network and BT peers. It does not replace a cloud-storage subscription or guarantee higher server-side limits.
 
+## Download
+
+### [⬇ Download v0.4.0 for Mac Apple Silicon (ZIP, ~121 MiB)](https://github.com/zhengkai400/surge-download/releases/download/v0.4.0/SurgeDownload-v0.4.0-macOS-arm64.zip)
+
+[Release notes, checksums and corresponding sources](https://github.com/zhengkai400/surge-download/releases/tag/v0.4.0)
+
+Requires **Apple Silicon (M-series) and macOS 15+**. Download the ZIP, unzip it and drag `疾风下载.app` to Applications. This is an early, non-notarized preview, not an Intel or Windows build. Follow the normal macOS first-launch confirmation flow. GitHub's automatically generated `Source code` archives are not runnable apps.
+
 ## Interface
 
 ![Surge Download: sidebar, compact task table and task details](docs/images/main-window.png)
@@ -48,7 +56,7 @@
 
 ### Launch
 
-Build from source and open `build/疾风下载.app`. This initial public repository distributes source code. A prebuilt download should only be assumed available if an actual asset exists under **Releases**.
+Download the application ZIP above, unzip it and open `疾风下载.app`, or build from source. Quit the old version before upgrading; do not run multiple instances. Existing task data is retained.
 
 ### Direct links and torrents
 
@@ -138,4 +146,4 @@ bundle_*.py / .sh    Engine, dependency and license bundlers
 
 Original project code is licensed under **AGPL-3.0-or-later**; see [LICENSE](LICENSE). Third-party code retains its own terms and attribution; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-Thanks to [aria2](https://github.com/aria2/aria2), [libtorrent](https://github.com/arvidn/libtorrent), [yt-dlp](https://github.com/yt-dlp/yt-dlp), [FFmpeg](https://ffmpeg.org/) and [LinkSwift](https://github.com/hmjz100/LinkSwift). Before redistributing bundled binaries, independently satisfy all applicable license and corresponding-source requirements. This initial repository publication does not include bundled executables.
+Thanks to [aria2](https://github.com/aria2/aria2), [libtorrent](https://github.com/arvidn/libtorrent), [yt-dlp](https://github.com/yt-dlp/yt-dlp), [FFmpeg](https://ffmpeg.org/) and [LinkSwift](https://github.com/hmjz100/LinkSwift). Before redistributing bundled binaries, independently satisfy all applicable license and corresponding-source requirements. Application and dependency sources with build recipes are provided in the `Corresponding-Sources` release asset.

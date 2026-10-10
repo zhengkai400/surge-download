@@ -17,3 +17,7 @@ Original project code: AGPL-3.0-or-later. Third-party components retain their or
 `bundle_*.py` and `bundle_bt.sh` collect package notices and Homebrew build receipts. This does not by itself fulfill every binary-redistribution obligation. Supply matching notices and any required corresponding sources when publishing a binary release. No prebuilt engine binaries are committed to this source repository.
 
 打包脚本复制许可证和构建信息，但这不代表二进制分发义务已经全部完成。发布安装包前请核对实际依赖版本，提供对应许可证及所需的对应源代码。源码仓库不提交预构建引擎。
+
+## v0.4.0 release sources / 发行版源码
+
+Download `SurgeDownload-v0.4.0-Corresponding-Sources.tar.gz` from https://github.com/zhengkai400/surge-download/releases/tag/v0.4.0 for application source, matching engine/dependency archives, patches, formulae, sanitized receipts and checksums. Binary notices are inside `疾风下载.app/Contents/Resources/licenses`.

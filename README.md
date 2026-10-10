@@ -8,6 +8,14 @@
 
 > 目前为早期 Demo。软件本身不设置下载速度上限，但实际速度取决于源站、账号权限、网络和 BT 节点。不是网盘会员替代品，也不承诺突破服务端限速。
 
+## 下载
+
+### [⬇ 下载 Mac Apple Silicon 版 v0.4.0（ZIP，约 121 MiB）](https://github.com/zhengkai400/surge-download/releases/download/v0.4.0/SurgeDownload-v0.4.0-macOS-arm64.zip)
+
+[查看发行说明、校验文件和对应源码](https://github.com/zhengkai400/surge-download/releases/tag/v0.4.0)
+
+适用于 **Apple Silicon（M 系列）Mac · macOS 15+**。下载 ZIP，解压后将「疾风下载.app」拖到「应用程序」。不是 Intel / Windows 版；当前为未公证的早期预览版，首次打开按 macOS 系统提示确认。GitHub 自动生成的 `Source code` 不是可直接运行的应用。
+
 ## 界面预览
 
 ![疾风下载主界面：侧边栏分类、任务表格和底部任务详情](docs/images/main-window.png)
@@ -48,7 +56,7 @@
 
 ### 1. 启动应用
 
-从源码构建后打开 `build/疾风下载.app`。本仓库首次公开以源码为主；仅以仓库 **Releases** 中实际存在的资产为可下载发行版，不在文档中承诺尚未上传的安装包。
+从上方下载应用 ZIP，解压后打开「疾风下载.app」；也可从源码构建。升级时先退出旧版，不要同时运行两个实例，已有任务数据保留。
 
 ### 2. 普通直链、磁力和种子
 
@@ -138,4 +146,4 @@ bundle_*.py / .sh    引擎、依赖和许可证打包
 
 本项目自有代码采用 **AGPL-3.0-or-later**，详见 [LICENSE](LICENSE)。第三方代码保留各自许可证与作者信息，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
-感谢 [aria2](https://github.com/aria2/aria2)、[libtorrent](https://github.com/arvidn/libtorrent)、[yt-dlp](https://github.com/yt-dlp/yt-dlp)、[FFmpeg](https://ffmpeg.org/) 和 [LinkSwift](https://github.com/hmjz100/LinkSwift)。再分发包含第三方引擎的二进制包前，需要独立履行所有相应许可证及对应源代码交付义务；本仓库首次发布不包含打包二进制。
+感谢 [aria2](https://github.com/aria2/aria2)、[libtorrent](https://github.com/arvidn/libtorrent)、[yt-dlp](https://github.com/yt-dlp/yt-dlp)、[FFmpeg](https://ffmpeg.org/) 和 [LinkSwift](https://github.com/hmjz100/LinkSwift)。再分发包含第三方引擎的二进制包前，需要独立履行所有相应许可证及对应源代码交付义务；发行版的对应源码、依赖源码与构建配方随 Releases 的 `Corresponding-Sources` 附件提供。
